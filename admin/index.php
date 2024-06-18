@@ -25,7 +25,7 @@ $result_barang = $conn->query($sql_barang);
     <link rel="stylesheet" href="../assets/css/style.css">
     <style>
         body {
-            font-size: 1rem; /* Adjusted to a more standard size */
+            font-size: 2rem; /* Adjusted to a more standard size */
         }
 
         table {
@@ -75,8 +75,8 @@ $result_barang = $conn->query($sql_barang);
     ?>
 
     <div class="content" style="margin-left: 150px;">
-        <h2 style="padding-top: 50px;"><b>Monitor Kegiatan & Barang Bawaan yang Telah Diunggah Guru</b></h2>
-        <h4 style="padding-top: 50px;">Kegiatan yang Telah Diunggah Guru</h4>
+        <h2 style="padding-top: 70px;"><b>Monitor Kegiatan & Barang Bawaan yang Telah Diunggah Guru</b></h2>
+        <h4 style="padding-top: 40px;">Kegiatan yang Telah Diunggah Guru</h4>
         <?php
         // if ($result_kegiatan->num_rows > 0) {
         //     echo "<table border='1' cellpadding='10' cellspacing='0' style='margin-top:30px';>
